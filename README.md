@@ -49,7 +49,22 @@ You can access it via http://localhost:$PORT(8080 default)/swagger-ui/
 **GET /api/v1/authentication/userInfo** (Needs Authorization token from login as Authorization header : "Bearer
 {$token}")</br>
 &nbsp; Returns the user information</br>
+**PUT /api/v1/authentication/userInfo** (Needs Authorization token from login as Authorization header : "Bearer
+{$token}")</br>
+&nbsp; Update userinfo and returns the user information</br>
 ## - Star Wars
 
 **GET /api/v1/star-wars/movie** (Needs Authorization token from login as Authorization header : "Bearer {$token}")</br>
 &nbsp; An External API call example. Returns a movie information from an external api
+
+
+## - Demo
+![Alt text](images/postman_createUser.png)
+![Alt text](images/DB_after_createUser.png)
+![Alt text](images/postman_login.png)
+![Alt text](images/postman_userInfo.png)
+![Alt text](images/postman_updateUser.png)
+![Alt text](images/DB_after_updateUser.png)
+
+
+
